@@ -85,7 +85,38 @@ h1 {
 }
 
 @media only screen and (max-width: 640px) {
-    body {
-        font-size: 12px;
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;      
     }
+
+    nav {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .sideNavButton {
+        width: 100%;
+        display: inline-block;
+        padding: 0.5em 0px;
+    }
+
+    .secondaryNavButton {
+        margin-top: 1em;
+    }
+
+    #presentation {
+        width: 100%;
+    }
+
+    #projectList {
+        width: 100%;
+    }
+
+    .container {
+        display: inline-block;
+    }
+
+
 }
