@@ -106,6 +106,10 @@ h1 {
         margin-top: 1em;
     }
 
+    .container {
+        width: 100%;
+    }
+
     #presentation {
         width: 100%;
     }
@@ -117,6 +121,43 @@ h1 {
     .container {
         display: inline-block;
     }
+}
 
+@media (orientation: portrait) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;      
+    }
 
+    nav {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .sideNavButton {
+        width: 100%;
+        display: inline-block;
+        padding: 0.5em 0px;
+    }
+
+    .secondaryNavButton {
+        margin-top: 1em;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #presentation {
+        width: 100%;
+    }
+
+    #projectList {
+        width: 100%;
+    }
+
+    .container {
+        display: inline-block;
+    }
 }
