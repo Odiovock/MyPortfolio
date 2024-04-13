@@ -1,41 +1,58 @@
+body {
+    background-color: rgb(240, 240, 240);
+    margin: 0px;
+}
+
 main {
     display: flex;
     flex-flow: column-wrap;
-    align-items: space-around;
+    align-items: start;
     align-content: center;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 30px;
 }
 
 nav {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
-    width: 20%;
+    justify-content: center;
+    max-width: 20%;
     margin: 2em;
 }
 
 h1 {
     font-size: 2.5em;
     text-align: left;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+    margin: 0px;
+}
+
+.uperLayerElement {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .container {
-    border: solid black 2px;
-    box-shadow: black 3px;
+    border: solid white 2px;
     border-radius: 5px;
     padding: 1.2em;
-    margin: 1em 2em;
+    margin: 2em;
 }
 
 .sideNavButton {
-    border: solid black 2px;
+    border: solid white 2px;
     border-radius: 2px;
-    padding: 35px 15px;
+    padding: 0.5em;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.secondaryNavButton {
+    margin-top: 2em;
 }
 
 .img-container img {
