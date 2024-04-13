@@ -9,26 +9,59 @@ nav {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
-    width: 25%;
+    width: 20%;
     margin: 30px;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5em;
     text-align: left;
     margin-left: 30px;
 }
 
 .sideNavButton {
+    width: 75%;
     border: solid black 2px;
     border-radius: 2px;
-    padding: 10px;
-    margin: 10px;
+    padding: 25px 15px;
+    margin: 45px 0px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bold;
 }
 
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 #presentation {
+    width: 50%;
+    margin: auto;
     text-align: center;
+}
+
+#projectList {
+    width: 30%;
+    margin: auto;
+}
+
+@media only screen and (min-width: 1008px)  {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 8px;
+    }
 }
