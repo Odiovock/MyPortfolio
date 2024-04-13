@@ -10,23 +10,31 @@ nav {
     flex-flow: column wrap;
     justify-content: space-evenly;
     width: 20%;
-    margin: 30px;
+    margin: 2em;
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
     margin-left: 30px;
 }
 
+.container {
+    border: solid black 2px;
+    box-shadow: black 3px;
+    border-radius: 5px;
+    padding: 1.2em;
+    margin: 1em 2em;
+}
+
 .sideNavButton {
-    width: 75%;
     border: solid black 2px;
     border-radius: 2px;
-    padding: 25px 15px;
-    margin: 45px 0px;
+    padding: 35px 15px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -39,29 +47,28 @@ h1 {
 
 #presentation {
     width: 50%;
-    margin: auto;
     text-align: center;
 }
 
 #projectList {
     width: 30%;
-    margin: auto;
+    text-align: center;
 }
 
 @media only screen and (min-width: 1008px)  {
-    html {
-        font-size: 16px;
+    body {
+        font-size: 24px;
     }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
-    html {
-        font-size: 12px;
+    body {
+        font-size: 16px;
     }
 }
 
 @media only screen and (max-width: 640px) {
-    html {
-        font-size: 8px;
+    body {
+        font-size: 12px;
     }
 }
