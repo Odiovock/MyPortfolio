@@ -35,6 +35,12 @@ h1 {
     box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
+.mainContainer {
+    background-color: (248, 250, 252);
+    border-radius: 5px;
+    margin: 2em;
+}
+
 .container {
     border: solid white 2px;
     border-radius: 5px;
@@ -55,7 +61,7 @@ h1 {
     margin-top: 2em;
 }
 
-.contactContainer {
+.upperContainer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -67,12 +73,12 @@ h1 {
     background-color: rgb(240, 250, 255);
 }
 
-.contactContainer img {
+.upperContainer img {
     max-width: 50px;
     margin: 0.7em;
 }
 
-.contactContainer img, .contactContainer p {
+.upperContainer img, .upperContainer p {
     display: inline-block;
 }
 
@@ -140,11 +146,11 @@ h1 {
         display: inline-block;
     }
 
-    .contactContainer {
+    .upperContainer {
         padding: 0.5em 0px;
     }
 
-    .contactContainer img {
+    .upperContainer img {
         max-width: 50px;
         margin: 0.7em 0px;
     }
@@ -189,11 +195,11 @@ h1 {
         display: inline-block;
     }
 
-    .contactContainer{
+    .upperContainer{
         padding: 0.5em 0px;
     }
 
-    .contactContainer img {
+    .upperContainer img {
         max-width: 50px;
         margin: 0.7em 0px;
     }
