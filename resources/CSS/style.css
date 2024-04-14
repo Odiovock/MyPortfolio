@@ -93,6 +93,18 @@ h1 {
     justify-content: center;
 }
 
+.arrowButton {
+    max-width: 30%;
+}
+
+.arrowButton img {
+    max-width: 75%;
+    min-width: 25px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 #presentation {
     width: 50%;
     text-align: center;
@@ -113,6 +125,19 @@ h1 {
 
 #project {
     max-width: 60%;
+    min-width: 60%;
+}
+
+#arrowbuttons {
+    max-width: 20%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#downButton img {
+    transform: rotate(180deg);
 }
 
 @media only screen and (min-width: 1008px)  {
@@ -130,7 +155,8 @@ h1 {
 @media only screen and (max-width: 640px) {
     main {
         flex-direction: row;
-        flex-wrap: wrap;      
+        flex-wrap: wrap;
+        justify-content: center;      
     }
 
     nav {
@@ -163,6 +189,18 @@ h1 {
         margin: 0.7em 0px;
     }
 
+    .arrowButton {
+        max-width: 15%;
+    }
+    
+    .arrowButton img {
+        max-width: 45%;
+        min-width: 25px;
+        height: auto;
+        display: block;
+        margin: auto;
+    } 
+
     #presentation {
         width: 100%;
     }
@@ -178,12 +216,21 @@ h1 {
     #project {
         max-width: 100%;
     }
+
+    #arrowbuttons {
+        max-width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        margin-bottom: 1em;
+    }
 }
 
 @media (orientation: portrait) {
     main {
         flex-direction: row;
-        flex-wrap: wrap;      
+        flex-wrap: wrap;
+        justify-content: center;      
     }
 
     nav {
@@ -216,6 +263,18 @@ h1 {
         margin: 0.7em 0px;
     }
 
+    .arrowButton {
+        max-width: 15%;
+        margin: auto;
+    }
+    
+    .arrowButton img {
+        max-width: 45%;
+        min-width: 25px;
+        height: auto;
+        display: block;
+    } 
+
     #presentation {
         width: 100%;
     }
@@ -230,5 +289,13 @@ h1 {
 
     #project {
         max-width: 100%;
+    }
+
+    #arrowbuttons {
+        max-width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-bottom: 1em;
     }
 }
