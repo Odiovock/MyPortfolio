@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(248, 250, 252);
     margin: 0px;
 }
 
@@ -55,6 +55,27 @@ h1 {
     margin-top: 2em;
 }
 
+.contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin: 1.4em auto;
+    padding: 0.7em;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: rgb(240, 250, 255);
+}
+
+.contactContainer img {
+    max-width: 50px;
+    margin: 0.7em;
+}
+
+.contactContainer img, .contactContainer p {
+    display: inline-block;
+}
+
 .img-container img {
     max-width: 100%;
     height: auto;
@@ -70,6 +91,14 @@ h1 {
 #projectList {
     width: 30%;
     text-align: center;
+}
+
+#contactInfo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    width: 80%;
 }
 
 @media only screen and (min-width: 1008px)  {
@@ -108,6 +137,16 @@ h1 {
 
     .container {
         width: 100%;
+        display: inline-block;
+    }
+
+    .contactContainer {
+        padding: 0.5em 0px;
+    }
+
+    .contactContainer img {
+        max-width: 50px;
+        margin: 0.7em 0px;
     }
 
     #presentation {
@@ -118,8 +157,8 @@ h1 {
         width: 100%;
     }
 
-    .container {
-        display: inline-block;
+    #contactInfo {
+        width: 100%;
     }
 }
 
@@ -147,6 +186,16 @@ h1 {
 
     .container {
         width: 100%;
+        display: inline-block;
+    }
+
+    .contactContainer{
+        padding: 0.5em 0px;
+    }
+
+    .contactContainer img {
+        max-width: 50px;
+        margin: 0.7em 0px;
     }
 
     #presentation {
@@ -157,7 +206,7 @@ h1 {
         width: 100%;
     }
 
-    .container {
-        display: inline-block;
+    #contactInfo {
+        width: 100%;
     }
 }
