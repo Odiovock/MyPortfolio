@@ -1,10 +1,13 @@
 Icon attribution
 
 email icon:
-<a href="https://www.flaticon.com/fr/icones-gratuites/email" title="email icônes">Email icônes créées par Hilmy Abiyyu A. - Flaticon</a>
+<a href="https://www.flaticon.com/fr/icones-gratuites/email" title="email icônes">Email icon created by Hilmy Abiyyu A. - Flaticon</a>
 
 phone icon:
-<a href="https://www.flaticon.com/fr/icones-gratuites/telephone" title="téléphone icônes">Téléphone icônes créées par Icon Hubs - Flaticon</a>
+<a href="https://www.flaticon.com/fr/icones-gratuites/telephone" title="téléphone icônes">Phone icon created by Icon Hubs - Flaticon</a>
 
 linkedin:
-<a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icônes créées par riajulislam - Flaticon</a>
+<a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icon created by riajulislam - Flaticon</a>
+
+cône:
+<a href="https://www.flaticon.com/fr/icones-gratuites/cone" title="cône icônes">Cone icon created by Freepik - Flaticon</a>

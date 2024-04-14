@@ -89,6 +89,10 @@ h1 {
     margin: auto;
 }
 
+.projectSummary {
+    justify-content: center;
+}
+
 #presentation {
     width: 50%;
     text-align: center;
@@ -105,6 +109,10 @@ h1 {
     justify-content: center;
     align-items: start;
     width: 80%;
+}
+
+#project {
+    max-width: 60%;
 }
 
 @media only screen and (min-width: 1008px)  {
@@ -166,6 +174,10 @@ h1 {
     #contactInfo {
         width: 100%;
     }
+
+    #project {
+        max-width: 100%;
+    }
 }
 
 @media (orientation: portrait) {
@@ -214,5 +226,9 @@ h1 {
 
     #contactInfo {
         width: 100%;
+    }
+
+    #project {
+        max-width: 100%;
     }
 }
