@@ -23,9 +23,11 @@ const projects = [
 setProjectWindow(initialiseOnLoad());
 
 function setProjectWindow (project) {
+    deleteLink();
     document.getElementById("projectImage").src = project.imgSource;
     document.getElementById("projectDescription").innerHTML = project.description
     currentIndex = project.index;
+    addLink(project.index);
 }
 
 function initialiseOnLoad () {
@@ -37,7 +39,7 @@ function initialiseOnLoad () {
     } else {
         onLoadIndex = 0;
     }
-    return projects[onLoadIndex];
+    return projects[onLoadIndex]; 
 }
 
 const upButton = document.getElementById("upButton");
@@ -45,7 +47,7 @@ const downButton = document.getElementById("downButton");
 
 function changeProjectWindow () {
     let chosenProject;
-    console.log(event);
+    
     if (event.target.id === "upButton" || event.target.id === "upArrow") {
         chosenProject = currentIndex + 1;
         if(chosenProject >= projects.length) {
@@ -65,3 +67,28 @@ function changeProjectWindow () {
 
 upButton.addEventListener("click", changeProjectWindow);
 downButton.addEventListener("click", changeProjectWindow);
+
+function addLink (index) {
+    if (projects[index].link) {
+        const projectSection = document.getElementById("project");
+
+        let linkToAdd = document.createElement("a");
+        linkToAdd.href = projects[index].link;
+        linkToAdd.innerHTML = "This will take you to the project!";
+        linkToAdd.target = "_blank";
+        linkToAdd.id = "temporaryLink";
+
+        projectSection.appendChild(linkToAdd);
+    }
+}
+
+function deleteLink () {
+    let linkToDelete = document.getElementById("temporaryLink");
+
+    if(linkToDelete) {
+        const projectSection = document.getElementById("project");
+        projectSection.removeChild(linkToDelete);
+    }
+    
+}
+
