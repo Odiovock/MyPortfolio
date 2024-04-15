@@ -1,6 +1,7 @@
 body {
     background-color: rgb(248, 250, 252);
     margin: 0px;
+    font-family: "Platypi", serif;
 }
 
 main {
@@ -28,6 +29,14 @@ h1 {
     font-size: 2.5em;
     text-align: left;
     margin: 0px;
+}
+
+h1, h2, h3, a {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 .upperLayerElement {
@@ -298,4 +307,31 @@ h1 {
         justify-content: space-between;
         margin-bottom: 1em;
     }
+}
+
+a:visited {
+    color: rgb(155, 105, 135);
+}
+
+.virtualButton a:visited  {
+    color: black;
+}
+
+.virtualButton:hover {
+    background-color: rgb(245, 245, 250);
+    border: solid gray 2px;
+}
+
+.virtualButton:active {
+    background-color: lightgray;
+    box-shadow: none;
+}
+
+.projectSummary:hover {
+    background-color: rgb(200, 200, 230)
+}
+
+.projectSummary:active {
+    background-color: rgb(160, 160, 210);
+    border: none;
 }
